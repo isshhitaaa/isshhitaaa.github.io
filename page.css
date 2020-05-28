@@ -1,0 +1,66 @@
+﻿body {
+ 
+ margin: 0;
+  font-family: cursive ;
+background-color:rgba(252, 229, 84,0.7);
+backgrond-size:cover;
+
+
+
+}
+header{
+height: 90px;
+width: 100%;
+background-color: #f5ce42;
+top: 0;
+background-size: cover;
+position: fixed;
+z-index:10;
+}
+
+header li{
+float:left;
+color: black;
+list-style: none;
+padding: 24px;
+padding-top: 25px;
+display: inline-block;
+text-decoration: none;
+}
+header li:hover{
+border: 2px solid black;
+}
+
+a:link{
+text-decoration: none;
+}
+a:visited{
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+color:purple;
+}
+a:active{
+text-decoration: underline;
+color:purple;
+}
+
+.title{
+color: #04bdd7;
+text-shadow: 0px 0px 2px black;
+letter-spacing: 3px;}
+
+
+.first-poem{
+padding-top:100px;
+
+}
+span{
+color: red;
+}
+
+.first-poem, .second-poem, .third-poem{
+padding-left: 40%;
+}
+

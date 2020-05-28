@@ -1,0 +1,185 @@
+﻿body {
+ 
+ margin: 0;
+  font-family: "Lucida Grande";
+background-image:url("color.jpg");
+background-size: cover;
+
+opacity: 0.7;
+
+
+}
+header{
+height: 90px;
+width: 100%;
+background-color: #f5ce42;
+top: 0;
+background-size: cover;
+position: fixed;
+z-index:10;
+}
+
+header li{
+float:left;
+color: black;
+list-style: none;
+padding: 24px;
+padding-top: 30px;
+display: inline-block;
+text-decoration: none;
+}
+
+h1{
+text-align: center;
+color:#c98912;
+letter-spacing: 3px;
+padding-top: 100px;
+font-size: 40px;
+}
+
+span{
+color: red;
+}
+ 
+header li:hover{
+border: 2px solid black;
+}
+
+.left-side{
+text-align: center;
+box-sizing: border-box;
+border: 1px solid #f5ce42;
+display: inline-block;
+padding: 12px;
+margin-top: 70px;
+position: relative;
+margin-left: 330px;
+
+}
+.photo{
+height: 40px;
+width: 40px;
+padding-top: 10px;
+
+}
+.profile{
+font-size:20px;
+}
+
+h2{
+color: #dd7631;
+text-align: center; 
+
+}
+
+.right{
+position: absolute;
+left: 300px;
+padding-top: 40px;
+text-align: right;
+color:#d38900;
+width: 700px;
+text-align: center;
+font-size:17px;
+}
+h2 .msg{
+height: 70px;
+width: 70px;
+padding-right:10px;
+position:relative;
+
+}
+
+footer{
+margin-top: 380px;
+margin-bottom: -600px;
+padding-top: 5px;
+background-color:#ffca00;
+bottom: -50px;
+backround-size:  cover;
+position:absolute;
+padding-bottom:10px;
+}
+
+footer li{
+list-style:none;
+float: left;
+padding:12px;
+text-align: center;
+margin-bottom:6px;
+}
+
+ button:hover{
+background-color: #baaaaa;
+display: inline-block;
+color: white;
+
+cursor: pointer;
+
+}
+.social{
+text-align: right;
+margin-right: 15px;
+font-size: 20px;
+padding-bottom:8px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.contact{
+height:20px;
+width: 20px;
+padding-left: 0px;
+}
+
+.colab{
+height:20px;
+width: 20px;
+
+}
+
+.email{
+width: 20px;
+padding-right: 4px;
+
+}
+.fb{
+height:30px;
+width: 30px;
+
+}
+.fb1{
+height:30px;
+width: 30px;
+padding-left:828px;
+padding-top:0px;
+
+float: left;
+}
+.insta{
+height:30px;
+width: 30px;
+padding-left:830px;
+float: left;
+padding-top:5px;
+}
+
+a:link{
+text-decoration: none;
+}
+a:visited{
+text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+color:purple;
+}
+a:active{
+text-decoration: underline;
+color:purple;
+}
+
+
+.sinsta{
+padding-top:80px;
+}
